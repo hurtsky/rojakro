@@ -3,7 +3,7 @@ body,html{
 	margin:0;
 }
 
-body {
+body{
 	background:#000000;
 	background-image:url(../img/rojakroname.jpg);
 	background-repeat:no-repeat;
@@ -11,7 +11,46 @@ body {
 	padding:50px;
 }
 
-th {
+th{
 	text-align:center;
 	vertical-align:middle;
+}
+
+.panel-heading{
+	text-align:center;
+	vertical-align:middle;
+}
+
+.panel-footer{
+	text-align:center;
+	vertical-align:middle;
+}
+
+.footer-main{
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+
+.footer-main .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-main .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
 }
